@@ -7,23 +7,36 @@
   import Icon from "./lib/Icon.svelte";
   import { copyright } from "./lib/icons/copyright";
   import { person } from "./lib/icons/person";
+  import Expander from "./lib/Expander.svelte";
+  import Card from "./lib/Card.svelte";
 </script>
 
 <main>
   <Sidebar>
     <div>
-      <h2>Hello World <Icon icon={person.filled} /></h2>
-      <p>
-        Check out <a
-          href="https://github.com/sveltejs/kit#readme"
-          target="_blank"
-          rel="noreferrer">SvelteKit</a
-        >, the official Svelte app framework powered by Vite!
-      </p>
-      ``
-      <p class="read-the-docs">
-        Click on the Vite and Svelte logos to learn more
-      </p>
+      <Card depth={1}>
+        <h2>Hello World <Icon icon={person.filled} /></h2>
+      </Card>
+      <Expander label="Open Me">
+        <p>Wow this thing drops down</p>
+        <ul>
+          <li>Isn't that</li>
+          <li>Pretty Cool</li>
+        </ul>
+      </Expander>
+      <Card depth={1}>
+        <p>
+          Check out <a
+            href="https://github.com/sveltejs/kit#readme"
+            target="_blank"
+            rel="noreferrer">SvelteKit</a
+          >, the official Svelte app framework powered by Vite!
+        </p>
+
+        <p class="read-the-docs">
+          Click on the Vite and Svelte logos to learn more
+        </p>
+      </Card>
     </div>
     <div slot="branding">
       <Icon fontSize="64px" icon={copyright.outlined} /> Tom Hinkle

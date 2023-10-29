@@ -1,6 +1,5 @@
 {
-  "name": "google-apps-script-svelte-components",
-  "private": true,
+  "name": "google-apps-script-svelte-components",  
   "version": "0.0.1",
   "type": "module",
   "types" : "dist/",

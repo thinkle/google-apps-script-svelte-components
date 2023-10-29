@@ -1,3 +1,4 @@
+/*
 export { icon10k } from './icon10k';
 export { icon10mp } from './icon10mp';
 export { icon11mp } from './icon11mp';
@@ -56,42 +57,44 @@ export { icon9k } from './icon9k';
 export { icon9k_plus } from './icon9k_plus';
 export { icon9mp } from './icon9mp';
 export { abc } from './abc';
-export { ac_unit } from './ac_unit';
+export { ac_unit } from './ac_unit'; 
 export { access_alarm } from './access_alarm';
 export { access_alarms } from './access_alarms';
 export { access_time } from './access_time';
-export { access_time_filled } from './access_time_filled';
-export { accessibility } from './accessibility';
-export { accessibility_new } from './accessibility_new';
-export { accessible } from './accessible';
-export { accessible_forward } from './accessible_forward';
-export { account_balance } from './account_balance';
-export { account_balance_wallet } from './account_balance_wallet';
-export { account_box } from './account_box';
-export { account_circle } from './account_circle';
-export { account_tree } from './account_tree';
+export { access_time_filled } from './access_time_filled'; */
+export { accessibility } from "./accessibility";
+export { accessibility_new } from "./accessibility_new";
+export { accessible } from "./accessible";
+export { accessible_forward } from "./accessible_forward";
+export { account_balance } from "./account_balance";
+export { account_balance_wallet } from "./account_balance_wallet";
+export { account_box } from "./account_box";
+export { account_circle } from "./account_circle";
+export { account_tree } from "./account_tree";
+/*
 export { ad_units } from './ad_units';
 export { adb } from './adb';
-export { add } from './add';
-export { add_a_photo } from './add_a_photo';
-export { add_alarm } from './add_alarm';
-export { add_alert } from './add_alert';
-export { add_box } from './add_box';
-export { add_business } from './add_business';
-export { add_card } from './add_card';
-export { add_chart } from './add_chart';
-export { add_circle } from './add_circle';
-export { add_circle_outline } from './add_circle_outline';
-export { add_comment } from './add_comment';
-export { add_home } from './add_home';
-export { add_home_work } from './add_home_work';
-export { add_ic_call } from './add_ic_call';
-export { add_link } from './add_link';
-export { add_location } from './add_location';
-export { add_location_alt } from './add_location_alt';
-export { add_moderator } from './add_moderator';
-export { add_photo_alternate } from './add_photo_alternate';
-export { add_reaction } from './add_reaction';
+export { add } from './add'; */
+export { add_a_photo } from "./add_a_photo";
+export { add_alarm } from "./add_alarm";
+export { add_alert } from "./add_alert";
+export { add_box } from "./add_box";
+export { add_business } from "./add_business";
+export { add_card } from "./add_card";
+export { add_chart } from "./add_chart";
+export { add_circle } from "./add_circle";
+export { add_circle_outline } from "./add_circle_outline";
+export { add_comment } from "./add_comment";
+export { add_home } from "./add_home";
+export { add_home_work } from "./add_home_work";
+export { add_ic_call } from "./add_ic_call";
+export { add_link } from "./add_link";
+export { add_location } from "./add_location";
+export { add_location_alt } from "./add_location_alt";
+export { add_moderator } from "./add_moderator";
+export { add_photo_alternate } from "./add_photo_alternate";
+export { add_reaction } from "./add_reaction";
+/*
 export { add_road } from './add_road';
 export { add_shopping_cart } from './add_shopping_cart';
 export { add_task } from './add_task';
@@ -173,11 +176,11 @@ export { arrow_outward } from './arrow_outward';
 export { arrow_right } from './arrow_right';
 export { arrow_right_alt } from './arrow_right_alt';
 export { arrow_upward } from './arrow_upward';
-export { art_track } from './art_track';
-export { article } from './article';
-export { aspect_ratio } from './aspect_ratio';
-export { assessment } from './assessment';
-export { assignment } from './assignment';
+export { art_track } from './art_track'; */
+export { article } from "./article";
+export { aspect_ratio } from "./aspect_ratio";
+export { assessment } from "./assessment";
+export { assignment } from "./assignment"; /*
 export { assignment_ind } from './assignment_ind';
 export { assignment_late } from './assignment_late';
 export { assignment_return } from './assignment_return';
@@ -211,12 +214,12 @@ export { autofps_select } from './autofps_select';
 export { autorenew } from './autorenew';
 export { av_timer } from './av_timer';
 export { baby_changing_station } from './baby_changing_station';
-export { back_hand } from './back_hand';
-export { backpack } from './backpack';
-export { backspace } from './backspace';
-export { backup } from './backup';
-export { backup_table } from './backup_table';
-export { badge } from './badge';
+export { back_hand } from './back_hand'; */
+export { backpack } from "./backpack"; /*
+export { backspace } from './backspace';  */
+export { backup } from "./backup"; /*
+export { backup_table } from './backup_table'; */
+export { badge } from "./badge"; /*
 export { bakery_dining } from './bakery_dining';
 export { balance } from './balance';
 export { balcony } from './balcony';
@@ -636,12 +639,12 @@ export { edit_off } from './edit_off';
 export { edit_road } from './edit_road';
 export { egg } from './egg';
 export { egg_alt } from './egg_alt';
-export { eject } from './eject';
-export { elderly } from './elderly';
-export { elderly_woman } from './elderly_woman';
-export { electric_bike } from './electric_bike';
-export { electric_bolt } from './electric_bolt';
-export { electric_car } from './electric_car';
+export { eject } from './eject'; */
+export { elderly } from "./elderly";
+export { elderly_woman } from "./elderly_woman";
+export { electric_bike } from "./electric_bike";
+export { electric_bolt } from "./electric_bolt";
+export { electric_car } from "./electric_car"; /*
 export { electric_meter } from './electric_meter';
 export { electric_moped } from './electric_moped';
 export { electric_rickshaw } from './electric_rickshaw';
@@ -679,9 +682,10 @@ export { event_repeat } from './event_repeat';
 export { event_seat } from './event_seat';
 export { exit_to_app } from './exit_to_app';
 export { expand } from './expand';
-export { expand_circle_down } from './expand_circle_down';
-export { expand_less } from './expand_less';
-export { expand_more } from './expand_more';
+export { expand_circle_down } from './expand_circle_down'; */
+export { expand_less } from "./expand_less";
+export { expand_more } from "./expand_more";
+/* 
 export { explicit } from './explicit';
 export { explore } from './explore';
 export { explore_off } from './explore_off';
@@ -2100,23 +2104,23 @@ export { wifi_protected_setup } from './wifi_protected_setup';
 export { wifi_tethering } from './wifi_tethering';
 export { wifi_tethering_error } from './wifi_tethering_error';
 export { wifi_tethering_off } from './wifi_tethering_off';
-export { wind_power } from './wind_power';
-export { window } from './window';
-export { wine_bar } from './wine_bar';
-export { woman } from './woman';
-export { woman_2 } from './woman_2';
-export { work } from './work';
-export { work_history } from './work_history';
-export { work_off } from './work_off';
-export { work_outline } from './work_outline';
+export { wind_power } from './wind_power'; */
+export { window } from "./window";
+export { wine_bar } from "./wine_bar";
+export { woman } from "./woman";
+export { woman_2 } from "./woman_2";
+export { work } from "./work";
+export { work_history } from "./work_history";
+export { work_off } from "./work_off";
+export { work_outline } from "./work_outline"; /*
 export { workspace_premium } from './workspace_premium';
-export { workspaces } from './workspaces';
-export { wrap_text } from './wrap_text';
-export { wrong_location } from './wrong_location';
-export { wysiwyg } from './wysiwyg';
-export { yard } from './yard';
-export { youtube_searched_for } from './youtube_searched_for';
-export { zoom_in } from './zoom_in';
-export { zoom_in_map } from './zoom_in_map';
-export { zoom_out } from './zoom_out';
-export { zoom_out_map } from './zoom_out_map';
+export { workspaces } from './workspaces'; */
+export { wrap_text } from "./wrap_text";
+export { wrong_location } from "./wrong_location";
+export { wysiwyg } from "./wysiwyg";
+export { yard } from "./yard"; /*
+export { youtube_searched_for } from './youtube_searched_for'; */
+export { zoom_in } from "./zoom_in";
+export { zoom_in_map } from "./zoom_in_map";
+export { zoom_out } from "./zoom_out";
+export { zoom_out_map } from "./zoom_out_map";
