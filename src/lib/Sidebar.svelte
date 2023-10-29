@@ -12,9 +12,9 @@
       Created with
       <a
         target="_blank"
-        href="https://github.com/thinkle/Google-Apps-Script-Svelte-Starter"
+        href="https://github.com/thinkle/google-apps-script-svelte-components.git"
       >
-        Google Apps Script + Svelte Starter Kit
+        Google Apps Script Svelte Components
       </a>
       by
       <a target="_blank" href="https://www.tomhinkle.net"> Tom Hinkle </a>
