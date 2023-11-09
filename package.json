@@ -1,6 +1,6 @@
 {
   "name": "google-apps-script-svelte-components",  
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "types" : "dist/",
   "main": "dist/index.es.js",
@@ -10,10 +10,7 @@
     "build": "tsc --emitDeclarationOnly && vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
-  },
-  "peerDependencies": {
-    "svelte": "^3.0.0"
-  },
+  },  
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.4.2",
     "@tsconfig/svelte": "^5.0.0",
