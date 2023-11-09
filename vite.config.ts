@@ -1,9 +1,13 @@
 import { defineConfig } from "vite";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
+import typescript from "@rollup/plugin-typescript";
 import path from "path";
 
 export default defineConfig({
-  plugins: [svelte()],
+  plugins: [
+    svelte(),
+    typescript({ include: "./src/lib/icons/*.ts", outDir: "./dist/icons" }),
+  ],
   build: {
     minify: false,
     lib: {
