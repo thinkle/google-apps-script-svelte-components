@@ -3,7 +3,7 @@
   import viteLogo from "/vite.svg";
   import Counter from "./lib/Counter.svelte";
   import Sidebar from "./lib/Sidebar.svelte";
-
+  import Button from "./lib/Button.svelte";
   import Icon from "./lib/Icon.svelte";
   import { copyright } from "./lib/icons/copyright";
   import { person } from "./lib/icons/person";
@@ -25,6 +25,19 @@
         </ul>
       </Expander>
       <Card depth={1}>
+        <Button color="blue" on:click={() => window.alert("you clicked blue")}>
+          Blue button!
+        </Button>
+        <Button color="red" on:click={() => window.alert("you clicked red")}>
+          Red button!
+        </Button>
+        <Button on:click={() => window.alert("you clicked default")}>
+          Default button
+        </Button>
+        <Button>
+          <Icon icon={person.filled} />
+          Button with icon
+        </Button>
         <p>
           Check out <a
             href="https://github.com/sveltejs/kit#readme"

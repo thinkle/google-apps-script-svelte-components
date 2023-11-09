@@ -3,7 +3,7 @@
   export let fontSize: string = "";
 </script>
 
-<div style:font-size={fontSize}>
+<div class="material-icon" style:font-size={fontSize}>
   {@html icon}
 </div>
 

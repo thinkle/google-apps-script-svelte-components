@@ -2,7 +2,8 @@
   import Icon from "./Icon.svelte";
   export let label: string | null;
   let expanded: boolean = false;
-  import { expand_less, expand_more } from "./icons/";
+  import { expand_less } from "./icons/expand_less";
+  import { expand_more } from "./icons/expand_more";
   import { fly } from "svelte/transition";
   import Block from "./Block.svelte";
   let icon = expand_more.round;

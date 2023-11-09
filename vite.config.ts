@@ -8,7 +8,7 @@ export default defineConfig({
     minify: false,
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "MySveltePackage",
+      name: "google-apps-script-svelte-components",
       fileName: (format) => `index.${format}.js`,
       formats: ["es", "umd"],
     },
