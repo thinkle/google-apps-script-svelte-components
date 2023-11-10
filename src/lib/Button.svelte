@@ -1,10 +1,15 @@
 <script lang="ts">
   import GoogleStyles from "./GoogleStyles.svelte";
   export let color: string = "";
+  let svgColor: string;
+
+  function fixSvgColor(el: HTMLButtonElement) {
+    svgColor = getComputedStyle(el).color;
+  }
 </script>
 
 <GoogleStyles />
-<button on:click class={color}>
+<button use:fixSvgColor on:click class={color} style:--color={svgColor}>
   <slot />
 </button>
 
@@ -20,5 +25,8 @@
   }
   button :global(.material-icon) {
     font-size: 24px;
+  }
+  button :global(.material-icon svg) {
+    fill: var(--color);
   }
 </style>
