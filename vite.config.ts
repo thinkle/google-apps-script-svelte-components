@@ -6,7 +6,11 @@ import path from "path";
 export default defineConfig({
   plugins: [
     svelte(),
-    typescript({ include: "./src/lib/icons/*.ts", outDir: "./dist/icons" }),
+    typescript({
+      include: "./src/lib/icons/*.ts",
+      outDir: "./dist/icons",
+      declaration: false,
+    }),
   ],
   build: {
     minify: false,
