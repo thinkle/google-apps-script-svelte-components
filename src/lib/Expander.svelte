@@ -15,6 +15,7 @@
 
   function toggle(e) {
     e.stopPropagation();
+    bodyHeight = bodyEl?.clientHeight;
     console.log("Toggling!", expanded, "=>", !expanded);
     expanded = !expanded;
   }
@@ -28,7 +29,13 @@
         <span> <Icon {icon} /></span>
       </button>
     </div>
-    <div class="body-wrap" class:expanded class:hidden={!expanded}>
+    <div
+      class="body-wrap"
+      class:expanded
+      class:hidden={!expanded}
+      on:transitionstart={(e) => (e.target.style.overflow = "hidden")}
+      on:transitionend={(e) => (e.target.style.overflow = "visible")}
+    >
       <div class="body" bind:this={bodyEl}>
         <slot />
       </div>
@@ -46,12 +53,11 @@
   .hidden {
     opacity: 0;
     pointer-events: none;
-    height: 0;
+    max-height: 0;
     transform: translate(0, -100%);
   }
   .body-wrap {
-    overflow: hidden;
-    transition: height 300ms;
+    transition: max-height 300ms;
     padding: 1px 0;
   }
   .hidden .body {
@@ -61,7 +67,7 @@
     transform: translate(0, 0);
   }
   .expanded {
-    height: var(--bodyHeight);
+    max-height: calc(var(--bodyHeight) + 64px);
   }
   .head {
     font-size: var(--size, 16px);
@@ -82,7 +88,6 @@
   section {
     box-shadow: var(--shadow, var(--shadow-1));
     padding: var(--margin, 16px);
-    overflow: hidden;
   }
   button {
     background: transparent;
